@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Perry simulator</title>
+</head>
+<body>
+    <main>
+        <div classe="rota ativo" id="rota-0">
+            <p>
+                você é perry, um ornitorrinco nos tempos vagos, mas isso não te impede de proteger a cidade durante ataques de um certo narigudo.
+                Seu relógio toca, alertando que Dr. Heinz Doofenshmirtz está planejando um ataque, o que você fará?  
+            </p>
+            <button class="btn-prox" data-prox="1"> Dormir, isso é trabalho da policia</button>
+            <button class="btn-prox" data-prox="2"> Vamos ao combate! </button>
+        </div>
+
+
+        <div classe="rota" id="rota-1">
+            <p>
+               voce decide que é trabalhoso de mais para um simples ornitorrinco, a policia da conta, porem um sistema de auto destruição explode metade da cidade, deseja recomeçar?
+            </p>
+            <button class="btn-prox" data-prox="0"> sim</button>
+            <button class="btn-prox" data-prox="3"> não </button>
+        </div>
+
+
+        <div classe="rota" id="rota-3">
+            <p>
+             o tormento e as mortes não abala sua mente, você pensa que o sofrimento gerado é pouco e decide gerar seu próprio cataclismo, como decide realiza-lo?
+            </p>
+            <button class="btn-prox" data-prox="4"> uma esfera de dyson</button>
+            <button class="btn-prox" data-prox="5"> uma bomba termo-nuclear </button>
+        </div>
+    </main>
+</body>
+</html>
