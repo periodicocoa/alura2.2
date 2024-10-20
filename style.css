@@ -12,3 +12,10 @@ button {
     font-family: "Open Sans", sans-serif;
     background-color: rgb(221, 221, 220);
 }
+
+.rota {
+    display: none;
+}
+.rota.ativo {
+    display:block;
+}
